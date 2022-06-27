@@ -5,26 +5,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML15 responsive</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
-    <h1>Responsive</h1>
-    <header>
-      <div>
+    <header class="header">
+      <section class="header_max_width cont">
+        <div class="logo__header">
+          <a href="/">
+            <img
+              src="data:image/webp;base64,UklGRlwDAABXRUJQVlA4TFADAAAvhEAHEGfjppEkSYp5gSzmRXr+Ka3TUXDUNpIgOftcGMvl+AM6qcsg20idyvsTvcy5jWzbaQ6X+YP3UI9aUKr+U5vh718H8HwX8fvj/f0bf8QqwY2lEMCiAhwqwEUBXFSAA6iAvWSFAGm5cSlBQaEAF+NGFsAI5f6Z4Yu7CAl6eSHMc8LzZHNAMWdDnOecNyNDMWfDO1inRoZizDoHnPCcbB7mMOaE100In7fH94F6hu5/HgBBurbthSS9SSrlqqxtm2Pbto3V+R9A1/d9VbXX1P+I/jsQ2DaNbO8YVPIjIHtmdGIKjffc0PDI5DQa7vn+gcHmZ6m7t6/5WW7r7GJp8hd+//jJM47m+td3IWNorle+8gzNolFO4thJFKss/XM1QHPPWms9m+AqWSlFhrH/788WgLVvJAsAZsfGq/1YopiNw9Wxpjp8/uLl623g05ciHUJb1pKyV05HT54+a2UH6x8/F1nsWWBtWU3aubTFqxzgIs8YmxZAofWy3BoHFxpj/JxixgVXwrkya7RPVy73CbC1PtPxw0ePi7x59/4DTXuX0JaVBCAjSsXF0Ep5LYTYMZaI0FFrR7gMpcgAxGwvKaWpTu7df8DylqekLavLCVuCTCNxEig2SgeJywhcinBnAgTXzTt3pVxsbF7Kmaj4JCNPgmLG4QwZqSYjMakmLC2GEAWXl5EtExOugAHDFhOSpkbS9dtCXu2yPxUyWucjBXQkHG3NFtgqpROkUUhQDOFikBZATiA5kRF0do3n+R5QlqGZWj+ki18yxpDx8JmIKFUk9o6vlObnn8AIRIkgnLM8OazelmXyPHLShK2mNVVCydiuyx0fYiCK/IFAlEpieXgE4ODvny0h3fOoJM0ZyLYDXBiGmTA4l7s8seSQtFB8ttheiQQiXxTJvWOhLVnallBPZNs5MgIlySgVkJ/xybaPQP4sLJMhKAiVLJzduHUK3pYkK79+L6OuspKjL6258iNdSOJSrkwxIyoRM2lLHgC1hUAam/SEs6RAJDKUCLaGToW2fL31n4SE1KHvII7A+WRMdMMTLpujXORbKkiq6JbUln/w3+ycqwxTg4sRVQa6IbXlPzTXYlvuo8EuacsGW2jLZltoy6b77PrNEzTRAA=="
+              alt="#"
+            />
+          </a>
+        </div>
+        <nav class="nav__header">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Pricing</a>
+          <a href="#">Blog</a>
+          <a href="#">Pages</a>
+          <a href="#">Contact</a>
+        </nav>
+        <div class="burger__header">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </section>
+    </header>
+    <section class="this-is-me">
+      <div class="cont">
+        <div class="sec__this-is-me__grid">
+          <h3 class="h3-title__this-is-me">this is me</h3>
+          <h2 class="h2-title__this-is-me">philip gilbert</h2>
+          <p>
+            You will begin to realise why this exercise is called the Dickens
+            Pattern with reference to the ghost showing Scrooge some different
+            futures.
+          </p>
+          <button class="btn__this-is-me">discover now</button>
+        </div>
+        <div class="img__this-is-me img__this-is-me__grid">
+          <img
+            src="https://preview.colorlib.com/theme/personal/img/xhero-img.png.pagespeed.ic.INRfo5JT2o.webp"
+            alt="photo"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="this-is-me2 cont">
+      <div class="img__this-is-me2">
         <img
-          src="	data:image/webp;base64,UklGRlwDAABXRUJQVlA4TFADAAA…RVQa6IbXlPzTXYlvuo8EuacsGW2jLZltoy6b77PrNEzTRAA=="
+          src="https://preview.colorlib.com/theme/personal/img/xabout-img.png.pagespeed.ic.1_IGXbMOtM.webp"
           alt="#"
         />
       </div>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Pricing</a>
-        <a href="#">Blog</a>
-        <a href="#">Pages</a>
-        <a href="#">Contact</a>
-      </nav>
-    </header>
+      <div class="text__this-is-me2">
+        <h3 class="h3-title__this-is-me">about me</h3>
+        <h2 class="h2-title__this-is-me">personal details</h2>
+        <p>
+          Here, I focus on a range of items and features that we use in life
+          without giving them a second thought. such as Coca Cola. Dolor sit
+          amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco.
+        </p>
+        <button class="btn__this-is-me">view full details</button>
+      </div>
+    </section>
+    <section class="services cont">
+      <div class="start__services">
+        <h2 class="title__services">My Offered Services</h2>
+        <p class="text__services">
+          At about this time of year, some months after New Year’s resolutions
+          have been made and kept, or made and neglected.
+        </p>
+      </div>
+      <div class="info__services">
+        <i class="fa fa-circle-thin" aria-hidden="true"></i>
+        <h4 class="title__info__services">Web Design</h4>
+        <p class="text__info__services">
+          “It is not because things are difficult that we do not dare; it is
+          because we do not dare that they are difficult.”
+        </p>
+      </div>
+      <div class="info__services">
+        <i class="fa fa-desktop" aria-hidden="true"></i>
+        <h4 class="title__info__services">Web Development</h4>
+        <p class="text__info__services">
+          If you are an entrepreneur, you know that your success cannot depend
+          on the opinions of others. Like the wind, opinions
+        </p>
+      </div>
+      <div class="info__services">
+        <i class="fa fa-camera" aria-hidden="true"></i>
+        <h4 class="title__info__services">Photography</h4>
+        <p class="text__info__services">
+          Do you want to be even more successful? Learn to love learning and
+          growth. The more effort you put into improving your skills.
+        </p>
+      </div>
+      <div class="info__services">
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        <h4 class="title__info__services">Clipping Path</h4>
+        <p class="text__info__services">
+          Hypnosis quit smoking methods maintain caused quite a stir in the
+          medical world over the last two decades. There is a lot of argument.
+        </p>
+      </div>
+      <div class="info__services">
+        <i class="fa fa-tablet" aria-hidden="true"></i>
+        <h4 class="title__info__services">Apps Interface</h4>
+        <p class="text__info__services">
+          Do you sometimes have the feeling that you’re running into the same
+          obstacles over and over again? Many of my conflicts.
+        </p>
+      </div>
+      <div class="info__services">
+        <i class="fa fa-rocket" aria-hidden="true"></i>
+        <h4 class="title__info__services">Graphic Design</h4>
+        <p class="text__info__services">
+          You’ve heard the expression, “Just believe it and it will come.” Well,
+          technically, that is true, however, ‘believing’ is not just thinking
+          that.
+        </p>
+      </div>
+    </section>
+    <section class="blue-section">
+      <div class="project__blue-section number">
+        <p class="numbers">2564</p>
+        <p class="text__number">Projects Completed</p>
+      </div>
+      <div class="clients__blue-section number">
+        <p class="numbers">6784</p>
+        <p class="text__number">Happy Clients</p>
+      </div>
+      <div class="coffee__blue-section number">
+        <p class="numbers">2239</p>
+        <p class="text__number">Cups of Coffee</p>
+      </div>
+      <div class="prof__blue-section number">
+        <p class="numbers">434</p>
+        <p class="text__number">Real Professionals</p>
+      </div>
+    </section>
   </body>
 </html>
